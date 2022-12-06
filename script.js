@@ -10,12 +10,12 @@ let songItems = Array.from(document.getElementsByClassName("song-item"))
 let masterSongName = document.getElementById("master-song-name");
 
 let songs = [
-    {songName: "Jehda Nasha", filePath: "song/1.mp3", coverPath: "cover/1.jpg"},
-    {songName: "Let Me Love You", filePath: "song/2.mp3", coverPath: "cover/2.jpg"},
-    {songName: "Aashiqui", filePath: "song/3.mp3", coverPath: "cover/3.jpg"},
-    {songName: "Humsafar", filePath: "song/4.mp3", coverPath: "cover/4.jpg"},
-    {songName: "Brown Munde", filePath: "song/5.mp3", coverPath: "cover/5.jpg"},
-    {songName: "Mere Mehboob", filePath: "song/6.mp3", coverPath: "cover/6.jpg"}
+    {songName: "8 Raflaan (feat. Gurlez Akhtar)", filePath: "song/1.mp3", coverPath: "cover/1.jpg"},
+    {songName: "Baapu", filePath: "song/2.mp3", coverPath: "cover/2.jpg"},
+    {songName: "Bewafa Tera Masoom Chehra", filePath: "song/3.mp3", coverPath: "cover/3.jpg"},
+    {songName: "Brown Munde", filePath: "song/4.mp3", coverPath: "cover/4.jpg"},
+    {songName: "Burjkhalifa", filePath: "song/5.mp3", coverPath: "cover/5.jpg"},
+    {songName: "Daru Badnaam", filePath: "song/6.mp3", coverPath: "cover/6.jpg"}
 ]
 
 songItems.forEach((element, i) => {
