@@ -76,6 +76,7 @@ Array.from(document.getElementsByClassName("song-item-play")).forEach((element) 
     })
 })
 
+// Handle previous button click
 document.getElementById("previous").addEventListener("click", () => {
     if (songIndex <= 0) {
         songIndex = 5
@@ -92,6 +93,7 @@ document.getElementById("previous").addEventListener("click", () => {
     masterSongName.innerText = songs[songIndex].songName
 })
 
+// Handle next button click
 document.getElementById("next").addEventListener("click", () => {
     if (songIndex >= 5) {
         songIndex = 0

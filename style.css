@@ -90,9 +90,17 @@ nav ul li {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    width: 80%;
     color: black;
     border-radius: 30px;
+    text-overflow: clip;
+}
+
+.song-name-time {
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-overflow: clip;
 }
 
 .song-item img {
