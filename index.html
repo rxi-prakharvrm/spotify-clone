@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone - Your favourite music here</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" /> Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+        <div class="song-list">
+            <h1>Best of NCS - No copyright sounds</h1>
+            <div class="song-item-container">
+                <div class="song-item">
+                    <img src="cover/1.jpg" alt="1">
+                    <span class="song-name">Jehda Nasha</span>
+                    <span class="song-list-play"></span>
+                    <span class="timestamp">05:35</span>
+                    <i id="0" class="fa-solid song-item-play fa-3x fa-circle-play"></i>
+                </div>
+                <div class="song-item">
+                    <img src="cover/2.jpg" alt="1">
+                    <span class="song-name">Let Me Love You</span>
+                    <span class="song-list-play"></span>
+                    <span class="timestamp">05:35</span>
+                    <i id="1" class="fa-solid song-item-play fa-3x fa-circle-play"></i>
+                </div>
+                <div class="song-item">
+                    <img src="cover/3.jpg" alt="1">
+                    <span class="song-name">Aashiqui</span>
+                    <span class="song-list-play"></span>
+                    <span class="timestamp">05:35</span>
+                    <i id="2" class="fa-solid song-item-play fa-3x fa-circle-play"></i>
+                </div>
+                <div class="song-item">
+                    <img src="cover/4.jpg" alt="1">
+                    <span class="song-name">Humsafar</span>
+                    <span class="song-list-play"></span>
+                    <span class="timestamp">05:35</span>
+                    <i id="3" class="fa-solid song-item-play fa-3x fa-circle-play"></i>
+                </div>
+                <div class="song-item">
+                    <img src="cover/5.jpg" alt="1">
+                    <span class="song-name">Brown Munde</span>
+                    <span class="song-list-play"></span>
+                    <span class="timestamp">05:35</span>
+                    <i id="4" class="fa-solid song-item-play fa-3x fa-circle-play"></i>
+                </div>
+                <div class="song-item">
+                    <img src="cover/6.jpg" alt="1">
+                    <span class="song-name">Mere Mehboob</span>
+                    <span class="song-list-play"></span>
+                    <span class="timestamp">05:35</span>
+                    <i id="5" class="fa-solid song-item-play fa-3x fa-circle-play"></i>
+                </div>
+            </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="my-progress-bar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- Fontawesome icons -->
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="master-play"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="song-info">
+            <img src="playing.gif" width="42px" alt="" id="playing-gif"> <span id="master-song-name">Jehda Nasha</span>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/60779b5bf6.js" crossorigin="anonymous"></script>
+  </body>
+</html>
